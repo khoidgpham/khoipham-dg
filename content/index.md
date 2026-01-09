@@ -1,6 +1,5 @@
 ---
-title: Welcome to Quartz
+title: Khôi Phạm Writing In Public
 ---
 
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
+Xin chào, mình là Khôi. Và đây là khu vườn của mình.
