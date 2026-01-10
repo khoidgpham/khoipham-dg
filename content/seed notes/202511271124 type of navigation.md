@@ -1,0 +1,8 @@
+---
+tags:
+  - information-architecture
+source: "[[The Web Project Guide - From Spark to Launch and Beyond]]"
+---
+Cách gọi thể các thành phần điều hướng ở trên web có thể thay đổi theo tùy từng team và góc nhìn, nhưng có thể có một vài định hướng như sau 
+
+We can tell you what we call these menus, however. • Main Navigation: The main navigation of the site, sometimes called the main menu. If it expands into a dropdown of additional pages, it can be called a flyout menu or mega menu. • Secondary Navigation: This is what we call the navigation within a section that often sits on the left or right of page content. It begins with the second level of navigation and moves down through the entire current section of the site. This is also sometimes called section navigation or left-hand/right-hand navigation. • Utility Navigation: The top list of links that are, often, focused on more task-based sections (calendar, login, account) but commonly includes anything that doesn’t explicitly communicate the meaning of the site. Depending on site design, we’ve also seen this called eyebrow navigation. • Footer Navigation: Navigation in the footer. This is pretty easy. • Audience Navigation: We see this a lot on university sites, where a second layer of navigation is provided as a block on the home page, sending users to common pages customized for that specific audience. • On-Page Navigation: We’ve built sites that include a kind of “table of contents” for a specific page, highlighting all of the headings and important sections and linking to them using anchors.

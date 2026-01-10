@@ -1,0 +1,1 @@
+Bộ phim kể về câu chuyện tình (bạn) giữa hai cô gái. Phong cách kể truyện và tiết tấu khá là độc đáo

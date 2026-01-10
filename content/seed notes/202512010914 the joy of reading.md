@@ -1,0 +1,8 @@
+---
+tags:
+  - reading
+source:
+---
+![[202512010914 the joy of reading_image_1.png]]
+
+“Because when I read, I don’t really read; I pop a beautiful sentence into my mouth and suck it like a fruit drop, or I sip it like a liqueur until the thought dissolves in me like alcohol, infusing brain and heart and coursing on through the veins to the root of each blood vessel.” — Bohumil Hraba #quote 

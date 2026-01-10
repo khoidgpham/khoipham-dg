@@ -1,0 +1,6 @@
+---
+tags:
+  - web
+source: "[[The Web Project Guide - From Spark to Launch and Beyond]]"
+---
+In most CMSs, specific content objects get assigned URLs when they’re created. The URLs are often based on the type of content, or where the content sits in a content tree (each object gets a segment, and the segments of all the ancestors back to the root object form the URL). Regardless of method, content objects which are intended to be directly addressed by a URL know what URL they should respond to. Given this, here’s how the request-response model plays out for a CMS. The process in steps 2, 3, and 4 is quite common in CMS architecture: map the URL to a content object, select a template, and execute the template against that content. The content object which is found in step 2 is known as the operative content object, meaning it’s the content object on which the request is “operating.” For example: 1. The URL /news/tax-increase-is-coming is requested. 2. The CMS reviews that, searches, and locates News Article #437 as matching that URL. 3. Checking its configuration, the CMS finds that News Article objects used the template in a file called news- article.tpl. 4. The CMS executes news-article.tpl with News Article #437 as the operative content object and gets a bunch of HTML in return. 5. The CMS sends that HTML as the response.

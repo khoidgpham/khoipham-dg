@@ -1,0 +1,6 @@
+---
+tags:
+  - CMS
+source: "[[Web Content Management]]"
+---
+The “big four” of content management might be identified as: Web content management (WCM) The management of content primarily intended for mass delivery via a website. WCM excels at separating content from presentation and publishing to multiple channels. Enterprise content management (ECM) The management of general business content, not necessarily intended for mass delivery or consumption (e.g., employee resumes, incident reports, memos, etc.). This flavor was more traditionally known as “document management,” but the label has been generalized over the years. ECM excels in collaboration, access control, and file management. Digital asset management (DAM) The management and manipulation of rich digital assets such as images, audio, and video for usage in other media. DAM excels at metadata and renditioning. Records management (RM) The management of transactional information and other records that are created as a byproduct of business operations (e.g., sales records, access records, con‐ tracts, etc.). RM excels at retention and access control.

@@ -1,0 +1,6 @@
+---
+tags:
+  - web
+source: "[[The Web Project Guide - From Spark to Launch and Beyond]]"
+---
+The standard full-stack project is essentially made up of dozens of different, overlapping sub-projects — like a big menu or buffet: • A planning project to define audiences, outcomes, goals, and content • A User Experience (UX) project to wireframe the basic user interface (UI) and plan the users’ interaction with it • A design project to incorporate your branding and marketing collateral and apply them to the UX • A technical consulting project to plan how the required functionality will be delivered by a technology stack • A development project to configure a CMS and programming framework to deliver the required functionality • A migration project to move your current content from your old CMS to your new one • A content creation project to generate new text and media for content that didn’t exist before • An infrastructure consulting project to plan and set up the hosting environment and required technology • An ongoing support project to respond to and repair website problems • And, finally, an overall project management … project, to make sure all these pieces are coordinated, delivered on schedule, and within budget
