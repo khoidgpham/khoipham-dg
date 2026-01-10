@@ -22,7 +22,7 @@ export default {
       quote: "Trích Dẫn",
     },
     backlinks: {
-      title: "Liên Kết Ngược",
+      title: "Bài khác nhắc tới",
       noBacklinksFound: "Không có liên kết ngược được tìm thấy",
     },
     themeToggle: {
@@ -30,10 +30,10 @@ export default {
       darkMode: "Tối",
     },
     explorer: {
-      title: "Trong bài này",
+      title: "Thám hiểm khu vườn",
     },
     footer: {
-      createdWith: "Được tạo bởi",
+      createdWith: "Được xây từ",
     },
     graph: {
       title: "Biểu Đồ",
@@ -76,9 +76,9 @@ export default {
       tag: "Thẻ",
       tagIndex: "Thẻ Mục Lục",
       itemsUnderTag: ({ count }) =>
-        count === 1 ? "1 mục gắn thẻ này." : `${count} mục gắn thẻ này.`,
+        count === 1 ? "1 mục gắn thẻ này." : `Tổng cộng ${count} mục.`,
       showingFirst: ({ count }) => `Hiển thị trước ${count} thẻ.`,
-      totalTags: ({ count }) => `Tìm thấy ${count} thẻ tổng cộng.`,
+      totalTags: ({ count }) => `Tìm thấy ${count} thẻ.`,
     },
   },
 } as const satisfies Translation

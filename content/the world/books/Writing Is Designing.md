@@ -9,6 +9,8 @@ author:
 Read: true
 book cover: https://m.media-amazon.com/images/I/71Dgd6uO0NL._SY522_.jpg
 PDF: "[[Writing is designing - Words and the user experience.pdf]]"
+aliases:
+  - Writing Is Designing - Words and the User Experience
 ---
 Tập trung chủ đề thiết kế trải nghiệm qua nội dung, sách đi qua một số theme chính mà những ai muốn thực hành kĩ năng thiết kế trải nghiệm nội dung đều nên cần biết và áp dụng, các chủ đề chính mà cuốn sách đi qua bao gồm
 1. Tại sao nội dung lại quan trọng đối với trải nghiệm của người dùng?
@@ -20,8 +22,8 @@ Tập trung chủ đề thiết kế trải nghiệm qua nội dung, sách đi q
 7. Phối hợp với các thành viên khác trong công việc
 
 # Highlight
-[[202511071657 Thiết kế nội dung là việc giải quyết vấn đề bằng câu chữ]]
-[[202511071712 Câu chữ cũng tạo ra trải nghiệm]]
+[[thiết kế nội dung là việc giải quyết vấn đề bằng câu chữ]]
+[[Câu chữ cũng tạo ra trải nghiệm]]
 [[202511101045 mad lib content strategy statement]]
 [[202511111407 sử dụng ngôn ngữ đơn giản có lợi cho tất cả mọi người]]
 [[202511111429 nguyên tắc viết trạng thái lỗi]]

@@ -1,7 +1,7 @@
 ---
 tags:
   - ux-writing
-source: "[[Writing Is Designing - Words and the User Experience]]"
+source: "[[Writing Is Designing]]"
 ---
 Ba nguyên tắc để viết nội dung trong những trạng thái lỗi trên trình duyệt
 1. Né tránh: tìm cách để giúp người dùng không mắc phải lỗi trước khi hiện chính lỗi đó ra 

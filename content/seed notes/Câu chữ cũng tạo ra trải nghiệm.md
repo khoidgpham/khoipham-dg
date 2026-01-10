@@ -2,7 +2,7 @@
 tags:
   - writing
   - user-experience
-source: "[[Writing Is Designing - Words and the User Experience]]"
+source: "[[Writing Is Designing]]"
 ---
 > You can’t create these experiences without words, and every word included in those experiences shares the user’s understanding, feeling, and outcome. That’s why this kind of writing is design.
 

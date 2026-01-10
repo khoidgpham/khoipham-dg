@@ -5,11 +5,6 @@ release_date: 2001-04-19
 gerne: Pop
 artwork:
 ---
-
-# mây trắng bay về
-
-**Artist:** Thanh Lam
-
 ## Track List
 - Track 1: cầm tay mùa hè
 - Track 2: đố tình

@@ -2,7 +2,7 @@
 tags:
   - writing
   - design
-source: "[[Writing Is Designing - Words and the User Experience]]"
+source: "[[Writing Is Designing]]"
 ---
 > Writing is about fitting words together. Designing is about solving problems for your users.
 

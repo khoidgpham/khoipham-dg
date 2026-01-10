@@ -19,6 +19,6 @@ Trong quá trình trải nghiệm sử dụng với một hệ thống điện t
 	4. [[202601070952 tính chất của một thông báo có ích với người dùng]]
 	5. [[202601071002 hướng dẫn onboarding cho người dùng]]
 	6. [[202601071015 thiết kế cho những trường hợp ngoại lệ xảy ra]]
-	7. [[202601071020 thiết kế poka-yoke]]
+	7. [[thiết kế poka-yoke]]
 	8. [[202601071029 giới hạn của thiết kế chat]]
 

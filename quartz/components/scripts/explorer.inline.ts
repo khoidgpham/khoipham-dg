@@ -65,8 +65,8 @@ function setupExplorer() {
     }
   }
 
-  explorer.addEventListener("click", toggleExplorer)
-  window.addCleanup(() => explorer.removeEventListener("click", toggleExplorer))
+  // explorer.addEventListener("click", toggleExplorer)
+  // window.addCleanup(() => explorer.removeEventListener("click", toggleExplorer))
 
   // Set up click handlers for each folder (click handler on folder "icon")
   for (const item of document.getElementsByClassName(

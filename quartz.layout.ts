@@ -8,8 +8,6 @@ export const sharedPageComponents: SharedLayout = {
   afterBody: [],
   footer: Component.Footer({
     links: {
-      GitHub: "https://github.com/jackyzha0/quartz",
-      "Discord Community": "https://discord.gg/cRFFHYye7t",
     },
   }),
 }
@@ -19,31 +17,74 @@ export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
     Component.Breadcrumbs(),
     Component.ArticleTitle(),
-    Component.ContentMeta(),
     Component.TagList(),
+    Component.Graph({ localGraph: { scale: 1, depth: 2, repelForce: 2, fontSize: 0.3 }, globalGraph: { scale: 1 } }),
   ],
   left: [
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
-    Component.Darkmode(),
-    Component.DesktopOnly(Component.Explorer({ folderClickBehavior: "link" })),
+    // Component.Darkmode(),
+    Component.DesktopOnly(Component.Explorer({
+      sortFn: (a, b) => {
+        if ((!a.file && !b.file) || (a.file && b.file)) {
+          return a.displayName.localeCompare(b.displayName)
+        }
+        if (a.file && !b.file) {
+          return -1
+        } else {
+          return 1
+        }
+      },
+    })),
   ],
   right: [
-    Component.Graph(),
     Component.DesktopOnly(Component.TableOfContents()),
+    Component.Backlinks(),
+  ],
+}
+
+// components for pages that display a single page (e.g. a single note)
+export const homepageLayout: PageLayout = {
+  beforeBody: [
+    Component.ArticleTitle(),
+    Component.TagList(),
+    Component.Graph({ localGraph: { scale: 1, depth: -1, repelForce: 2, fontSize: 0.3 }, globalGraph: { scale: 1 } }),
+  ],
+  afterBody: [
+    Component.RecentNotes(),
+  ],
+  // left: [
+  //   Component.PageTitle(),
+  //   Component.MobileOnly(Component.Spacer()),
+  //   Component.Search(),
+  //   // Component.Darkmode(),
+  //   Component.DesktopOnly(Component.Explorer({
+  //     sortFn: (a, b) => {
+  //       if ((!a.file && !b.file) || (a.file && b.file)) {
+  //         return a.displayName.localeCompare(b.displayName)
+  //       }
+  //       if (a.file && !b.file) {
+  //         return -1
+  //       } else {
+  //         return 1
+  //       }
+  //     },
+  //   })),
+  // ],
+  right: [
     Component.Backlinks(),
   ],
 }
 
 // components for pages that display lists of pages  (e.g. tags or folders)
 export const defaultListPageLayout: PageLayout = {
-  beforeBody: [Component.Breadcrumbs(), Component.ArticleTitle(), Component.ContentMeta()],
+  beforeBody: [Component.Breadcrumbs(), Component.ArticleTitle()],
   left: [
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
-    Component.Darkmode(),
+    // Component.Darkmode(),
     Component.DesktopOnly(Component.Explorer({ folderClickBehavior: "link" })),
   ],
   right: [],

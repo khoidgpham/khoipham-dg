@@ -2,7 +2,7 @@
 tags:
   - content-strategy
   - ux-writing
-source: "[[Writing Is Designing - Words and the User Experience]]"
+source: "[[Writing Is Designing]]"
 ---
 Khung framework sử dụng để định hướng tone khi viết nội dung phát triển bởi team chiến lược nội dung của Facebook
 

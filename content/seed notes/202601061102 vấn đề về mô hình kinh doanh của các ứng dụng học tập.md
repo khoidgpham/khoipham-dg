@@ -3,7 +3,6 @@ tags:
   - product-design
 source: https://substack.com/home/post/p-182113486
 ---
-[[202601061041 lý do phần lớn các ứng dụng học tập thất bại]]
 
 Lý do các app thường xuyên vi phạm những nguyên tắc học tập này bởi chính sự tuần thủ nguyên tắc này là mâu thuẫn với những chỉ số mà họ đang cố gắng tối ưu (engament time, task success, task fail rate). Họ cố gắng tạo ra trải nghiệm mượt mà, có sự cá nhân hóa hay thời gian cho task nhưng điều đó lại trải ngược lại với những nguyên tắc của học tập, tệ nhất là tạo ra một ảo ảnh của học tập.
 

@@ -8,14 +8,14 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Vườn của Khôi",
+    pageTitle: "khoidg",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
       provider: "plausible",
     },
-    locale: "en-US",
+    locale: "vi-VN",
     baseUrl: "khoipham-dg",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
@@ -24,8 +24,8 @@ const config: QuartzConfig = {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Schibsted Grotesk",
-        body: "Source Sans Pro",
+        header: "IBM Plex Mono",
+        body: "IBM Plex Mono",
         code: "IBM Plex Mono",
       },
       colors: {
@@ -41,14 +41,14 @@ const config: QuartzConfig = {
           textHighlight: "#fff23688",
         },
         darkMode: {
-          light: "#161618",
-          lightgray: "#393639",
-          gray: "#646464",
-          darkgray: "#d4d4d4",
-          dark: "#ebebec",
-          secondary: "#7b97aa",
+          light: "rgb(16, 15, 15)",
+          lightgray: "rgb(28, 27, 26)",
+          gray: "rgb(64, 62, 60)",
+          darkgray: "rgb(135, 133, 128)",
+          dark: "rgb(206, 205, 195)",
+          secondary: "#7baa86ff",
           tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
+          highlight: "rgba(144, 169, 143, 0.15)",
           textHighlight: "#b3aa0288",
         },
       },

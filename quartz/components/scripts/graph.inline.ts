@@ -282,6 +282,7 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
       const nodeId = n.simulationData.id
 
       if (hoveredNodeId === nodeId) {
+        n.label.visible = true
         tweenGroup.add(
           new Tweened<Text>(n.label).to(
             {
@@ -292,6 +293,7 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
           ),
         )
       } else {
+        n.label.visible = nodeId === slug || nodeId.startsWith("tags/")
         tweenGroup.add(
           new Tweened<Text>(n.label).to(
             {
@@ -502,6 +504,13 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
           currentTransform = transform
           stage.scale.set(transform.k, transform.k)
           stage.position.set(transform.x, transform.y)
+
+          // Set default label visibility
+          nodeRenderData.forEach(
+            (rd) =>
+            (rd.label.visible =
+              rd.simulationData.id === slug || rd.simulationData.id.startsWith("tags/")),
+          )
 
           // zoom adjusts opacity of labels too
           const scale = transform.k * opacityScale

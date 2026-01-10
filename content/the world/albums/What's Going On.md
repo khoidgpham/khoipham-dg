@@ -33,8 +33,6 @@ Marvin Gaye đã kiên quyết **tuyệt thực thu âm**. Cuối cùng, ca khú
 
 Thành công thương mại của đĩa đơn sau đó đã buộc Gordy phải nhượng bộ, trao cho Gaye quyền kiểm soát nghệ thuật mà ông khao khát. Album _What's Going On_ là chiến thắng tuyệt đối của nghệ sĩ trước hãng đĩa.
 
-#WhatsGoingOn #MarvinGaye #Motown #SoulMusic #ClassicAlbums
-
 
 
 
