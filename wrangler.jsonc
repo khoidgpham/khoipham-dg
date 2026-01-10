@@ -1,0 +1,9 @@
+{
+    "name": "quartz-site",
+    "compatibility_date": "2024-09-23",
+    "assets": {
+        "directory": "./public",
+        "binding": "ASSETS"
+    },
+    "main": "src/index.ts"
+}
