@@ -49,12 +49,18 @@ export const defaultContentPageLayout: PageLayout = {
 export const homepageLayout: PageLayout = {
   beforeBody: [
     Component.ArticleTitle(),
-    Component.TagList(),
-    Component.Graph({ localGraph: { scale: 1, depth: -1, repelForce: 2, fontSize: 0.3 }, globalGraph: { scale: 1 } }),
-  ],
-  afterBody: [
+    Component.DesktopOnly(
+      Component.Graph({
+        localGraph: {
+          depth: -1,
+        },
+        globalGraph: {},
+      }),
+    ),
     Component.RecentNotes(),
+
   ],
+  left: [],
   // left: [
   //   Component.PageTitle(),
   //   Component.MobileOnly(Component.Spacer()),
