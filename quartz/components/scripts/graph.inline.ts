@@ -72,6 +72,7 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
   const visited = getVisited()
   const graph = document.getElementById(container)
   if (!graph) return
+  if (graph.offsetWidth === 0 && graph.offsetHeight === 0) return
   removeAllChildren(graph)
 
   let {

@@ -60,7 +60,11 @@ export const homepageLayout: PageLayout = {
     Component.RecentNotes(),
 
   ],
-  left: [],
+  left: [
+    Component.PageTitle(),
+    Component.MobileOnly(Component.Spacer()),
+    Component.Search(),
+  ],
   // left: [
   //   Component.PageTitle(),
   //   Component.MobileOnly(Component.Spacer()),
