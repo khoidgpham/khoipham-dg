@@ -49,14 +49,14 @@ export const defaultContentPageLayout: PageLayout = {
 export const homepageLayout: PageLayout = {
   beforeBody: [
     Component.ArticleTitle(),
-    Component.DesktopOnly(
-      Component.Graph({
-        localGraph: {
-          depth: -1,
-        },
-        globalGraph: {},
-      }),
-    ),
+    // Component.DesktopOnly(
+    //   Component.Graph({
+    //     localGraph: {
+    //       depth: -1,
+    //     },
+    //     globalGraph: {},
+    //   }),
+    // ),
     Component.RecentNotes(),
 
   ],
@@ -64,25 +64,20 @@ export const homepageLayout: PageLayout = {
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
+    // Component.Darkmode(),
+    Component.DesktopOnly(Component.Explorer({
+      sortFn: (a, b) => {
+        if ((!a.file && !b.file) || (a.file && b.file)) {
+          return a.displayName.localeCompare(b.displayName)
+        }
+        if (a.file && !b.file) {
+          return -1
+        } else {
+          return 1
+        }
+      },
+    })),
   ],
-  // left: [
-  //   Component.PageTitle(),
-  //   Component.MobileOnly(Component.Spacer()),
-  //   Component.Search(),
-  //   // Component.Darkmode(),
-  //   Component.DesktopOnly(Component.Explorer({
-  //     sortFn: (a, b) => {
-  //       if ((!a.file && !b.file) || (a.file && b.file)) {
-  //         return a.displayName.localeCompare(b.displayName)
-  //       }
-  //       if (a.file && !b.file) {
-  //         return -1
-  //       } else {
-  //         return 1
-  //       }
-  //     },
-  //   })),
-  // ],
   right: [
     Component.Backlinks(),
   ],
