@@ -1,3 +1,5 @@
+@use "sass:map";
+
 @use "./variables.scss" as *;
 @use "./syntax.scss";
 @use "./callouts.scss";
@@ -9,8 +11,7 @@ html {
   width: 100vw;
 }
 
-body,
-section {
+body {
   margin: 0;
   box-sizing: border-box;
   background-color: var(--light);
@@ -39,28 +40,36 @@ li,
 ol,
 ul,
 .katex,
-.math {
+.math,
+.typst-doc,
+.typst-doc * {
   color: var(--darkgray);
   fill: var(--darkgray);
-  hyphens: auto;
-}
-
-p,
-ul,
-text,
-a,
-li,
-ol,
-ul,
-.katex,
-.math {
-  overflow-wrap: anywhere;
-  /* tr and td removed from list of selectors for overflow-wrap, allowing them to use default 'normal' property value */
+  overflow-wrap: break-word;
+  text-wrap: pretty;
 }
 
 .math {
   &.math-display {
     text-align: center;
+  }
+}
+
+article {
+
+  >mjx-container.MathJax,
+  blockquote>div>mjx-container.MathJax {
+    display: flex;
+
+    >svg {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+  blockquote>div>mjx-container.MathJax>svg {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
   }
 }
 
@@ -75,7 +84,7 @@ a {
   color: var(--secondary);
 
   &:hover {
-    color: var(--tertiary) !important;
+    color: var(--tertiary);
   }
 
   &.internal {
@@ -84,6 +93,16 @@ a {
     padding: 0 0.1rem;
     border-radius: 5px;
     line-height: 1.4rem;
+
+    &.broken {
+      color: var(--secondary);
+      opacity: 0.5;
+      transition: opacity 0.2s ease;
+
+      &:hover {
+        opacity: 0.8;
+      }
+    }
 
     &:has(> img) {
       background-color: transparent;
@@ -106,12 +125,31 @@ a {
       fill: var(--dark);
     }
   }
+
+  &.external {
+    // this whole section was added
+    text-decoration: underline wavy;
+    text-decoration-color: var(--gray);
+    opacity: 0.9;
+  }
+}
+
+.flex-component {
+  display: flex;
 }
 
 .desktop-only {
   display: initial;
 
+  &.flex-component {
+    display: flex;
+  }
+
   @media all and ($mobile) {
+    &.flex-component {
+      display: none;
+    }
+
     display: none;
   }
 }
@@ -119,18 +157,26 @@ a {
 .mobile-only {
   display: none;
 
+  &.flex-component {
+    display: none;
+  }
+
   @media all and ($mobile) {
+    &.flex-component {
+      display: flex;
+    }
+
     display: initial;
   }
 }
 
 .page {
-  max-width: calc(#{map-get($breakpoints, desktop)} + 300px);
+  max-width: calc(#{map.get($breakpoints, desktop)} + 300px);
   margin: 0 auto;
 
   & article {
     &>h1 {
-      font-size: 2rem;
+      font-size: 1.12rem;
     }
 
     & li:has(> input[type="checkbox"]) {
@@ -139,7 +185,7 @@ a {
     }
 
     & li:has(> input[type="checkbox"]:checked) {
-      text-decoration: line-through;
+      // text-decoration: line-through;
       text-decoration-color: var(--gray);
       color: var(--gray);
     }
@@ -154,36 +200,29 @@ a {
     }
   }
 
-  &>#quartz-body {
+  // This will give special grid styling to the 404 page, which is just skipping the tablet layout
+  // because it looked weird when there was nothing in the left sidebar
+  &>#quartz-404-body {
     display: grid;
-    grid-template-columns: #{map-get($desktopGrid, templateColumns)};
-    grid-template-rows: #{map-get($desktopGrid, templateRows)};
-    column-gap: #{map-get($desktopGrid, columnGap)};
-    row-gap: #{map-get($desktopGrid, rowGap)};
-    grid-template-areas: #{map-get($desktopGrid, templateAreas)};
+    grid-template-columns: #{map.get($desktopGrid, templateColumns)};
+    grid-template-rows: #{map.get($desktopGrid, templateRows)};
+    column-gap: #{map.get($desktopGrid, columnGap)};
+    row-gap: #{map.get($desktopGrid, rowGap)};
+    grid-template-areas: #{map.get($desktopGrid, templateAreas)};
 
-    @media all and ($tablet) {
-      grid-template-columns: #{map-get($tabletGrid, templateColumns)};
-      grid-template-rows: #{map-get($tabletGrid, templateRows)};
-      column-gap: #{map-get($tabletGrid, columnGap)};
-      row-gap: #{map-get($tabletGrid, rowGap)};
-      grid-template-areas: #{map-get($tabletGrid, templateAreas)};
+    @media all and ($tablet),
+    all and ($mobile) {
+      grid-template-columns: #{map.get($mobileGrid, templateColumns)};
+      grid-template-rows: #{map.get($mobileGrid, templateRows)};
+      column-gap: #{map.get($mobileGrid, columnGap)};
+      row-gap: #{map.get($mobileGrid, rowGap)};
+      grid-template-areas: #{map.get($mobileGrid, templateAreas)};
     }
 
-    @media all and ($mobile) {
-      grid-template-columns: #{map-get($mobileGrid, templateColumns)};
-      grid-template-rows: #{map-get($mobileGrid, templateRows)};
-      column-gap: #{map-get($mobileGrid, columnGap)};
-      row-gap: #{map-get($mobileGrid, rowGap)};
-      grid-template-areas: #{map-get($mobileGrid, templateAreas)};
-    }
-
-    @media all and not ($desktop) {
+    // Remove or adjust other styles as needed
+    & {
       padding: 0 1rem;
-    }
-
-    @media all and ($mobile) {
-      margin: 0 auto;
+      margin-right: 10px;
     }
 
     & .sidebar {
@@ -192,7 +231,111 @@ a {
       box-sizing: border-box;
       padding: $topSpacing 2rem 2rem 2rem;
       display: flex;
-      height: 100vh;
+      height: 0vh;
+      position: sticky;
+    }
+
+    & .sidebar.left {
+      z-index: 1;
+      grid-area: grid-sidebar-left;
+      flex-direction: column;
+
+      @media all and ($tablet),
+      all and ($mobile) {
+        gap: 0;
+        align-items: center;
+        position: initial;
+        display: flex;
+        // height: unset;
+        flex-direction: row;
+        padding: 0;
+        padding-top: 2rem;
+      }
+    }
+
+    & .sidebar.right {
+      grid-area: grid-sidebar-right;
+      margin-right: 0;
+      flex-direction: column;
+    }
+
+    & .page-header,
+    & .page-footer {
+      margin-top: 1rem;
+
+      @media all and ($tablet),
+      all and ($mobile) {
+        display: none;
+      }
+    }
+
+    & .page-header {
+      grid-area: grid-header;
+      margin: $topSpacing 0 0 0;
+    }
+
+    & .center>article {
+      grid-area: grid-center;
+    }
+
+    & footer {
+      grid-area: grid-footer;
+    }
+
+    & .center,
+    & footer {
+      max-width: 100%;
+      min-width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    & footer {
+      margin-left: 0;
+    }
+  }
+
+  &>#quartz-body {
+    display: grid;
+    grid-template-columns: #{map.get($desktopGrid, templateColumns)};
+    grid-template-rows: #{map.get($desktopGrid, templateRows)};
+    column-gap: #{map.get($desktopGrid, columnGap)};
+    row-gap: #{map.get($desktopGrid, rowGap)};
+    grid-template-areas: #{map.get($desktopGrid, templateAreas)};
+
+    @media all and ($tablet) {
+      grid-template-columns: #{map.get($tabletGrid, templateColumns)};
+      grid-template-rows: #{map.get($tabletGrid, templateRows)};
+      column-gap: #{map.get($tabletGrid, columnGap)};
+      row-gap: #{map.get($tabletGrid, rowGap)};
+      grid-template-areas: #{map.get($tabletGrid, templateAreas)};
+    }
+
+    @media all and ($mobile) {
+      grid-template-columns: #{map.get($mobileGrid, templateColumns)};
+      grid-template-rows: #{map.get($mobileGrid, templateRows)};
+      column-gap: #{map.get($mobileGrid, columnGap)};
+      row-gap: #{map.get($mobileGrid, rowGap)};
+      grid-template-areas: #{map.get($mobileGrid, templateAreas)};
+    }
+
+    @media all and not ($desktop) {
+      padding: 0 1rem;
+      margin-right: 10px;
+    }
+
+    @media all and ($mobile) {
+      margin: 0 auto;
+      margin-right: 10px;
+    }
+
+    & .sidebar {
+      gap: 1.2rem;
+      top: 0;
+      box-sizing: border-box;
+      padding: $topSpacing 2rem 2rem 2rem;
+      display: flex;
+      height: 90vh;
       position: sticky;
     }
 
@@ -210,6 +353,10 @@ a {
         flex-direction: row;
         padding: 0;
         padding-top: 2rem;
+      }
+
+      @media all and not ($desktop) {
+        margin-right: 10px;
       }
     }
 
@@ -232,6 +379,7 @@ a {
 
         &>* {
           flex: 1;
+          max-height: 24rem;
         }
 
         &>.toc {
@@ -292,7 +440,7 @@ a {
 }
 
 input[type="checkbox"] {
-  transform: translateY(2px);
+  transform: translateY(5px);
   color: var(--secondary);
   border: 1px solid var(--lightgray);
   border-radius: 3px;
@@ -366,33 +514,37 @@ h6 {
   &[id]:hover>a {
     opacity: 1;
   }
+
+  &:not([id])>a[role="anchor"] {
+    display: none;
+  }
 }
 
 // typography improvements
 h1 {
-  font-size: 1.4rem;
-  margin-top: 2.25rem;
-  margin-bottom: 1rem;
+  font-size: 1.12rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
 h2 {
-  font-size: 1.4rem;
-  margin-top: 1.9rem;
-  margin-bottom: 1rem;
+  font-size: 1.12rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
 h3 {
   font-size: 1.12rem;
-  margin-top: 1.62rem;
-  margin-bottom: 1rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
 h4,
 h5,
 h6 {
-  font-size: 1rem;
+  font-size: 1.12rem;
   margin-top: 1.5rem;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 figure[data-rehype-pretty-code-figure] {
@@ -424,6 +576,7 @@ pre {
   overflow-x: auto;
   border: 1px solid var(--lightgray);
   position: relative;
+  line-height: 1.3em;
 
   &:has(> code.mermaid) {
     border: none;
@@ -531,6 +684,7 @@ img {
   max-width: 100%;
   border-radius: 5px;
   margin: 1rem 0;
+  content-visibility: auto;
 }
 
 p>img+em {
@@ -553,40 +707,33 @@ video {
 }
 
 .spacer {
-  flex: 1 1 auto;
+  flex: 2 1 auto;
 }
 
 div:has(> .overflow) {
-  display: flex;
-  overflow-y: auto;
   max-height: 100%;
+  overflow-y: hidden;
 }
 
 ul.overflow,
 ol.overflow {
   max-height: 100%;
   overflow-y: auto;
+  width: 100%;
+  margin-bottom: 0;
 
   // clearfix
   content: "";
   clear: both;
 
-  &>li:last-of-type {
-    margin-bottom: 30px;
+  &>li.overflow-end {
+    height: 0.5rem;
+    margin: 0;
   }
 
-  /*&:after {
-    pointer-events: none;
-    content: "";
-    width: 100%;
-    height: 50px;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    opacity: 1;
-    transition: opacity 0.3s ease;
-    background: linear-gradient(transparent 0px, var(--light));
-  }*/
+  &.gradient-active {
+    mask-image: linear-gradient(to bottom, black calc(100% - 50px), transparent 100%);
+  }
 }
 
 .transclude {
@@ -596,13 +743,20 @@ ol.overflow {
 }
 
 .katex-display {
+  display: initial;
   overflow-x: auto;
   overflow-y: hidden;
 }
 
-.external-embed.youtube,
-iframe.pdf {
+.external-embed.youtube {
   aspect-ratio: 16 / 9;
+  height: 100%;
+  width: 100%;
+  border-radius: 5px;
+}
+
+iframe.pdf {
+  aspect-ratio: 1;
   height: 100%;
   width: 100%;
   border-radius: 5px;

@@ -23,9 +23,11 @@ export interface D3Config {
 interface GraphOptions {
   localGraph: Partial<D3Config> | undefined
   globalGraph: Partial<D3Config> | undefined
+  enableLocalGraph?: boolean
 }
 
 const defaultOptions: GraphOptions = {
+  enableLocalGraph: true,
   localGraph: {
     drag: true,
     zoom: true,
@@ -60,11 +62,15 @@ export default ((opts?: GraphOptions) => {
   const Graph: QuartzComponent = ({ displayClass, cfg }: QuartzComponentProps) => {
     const localGraph = { ...defaultOptions.localGraph, ...opts?.localGraph }
     const globalGraph = { ...defaultOptions.globalGraph, ...opts?.globalGraph }
+    // Check if local graph is enabled (default to true if undefined for backward compatibility, though defaultOptions handles it)
+    const renderLocalGraph = opts?.enableLocalGraph ?? defaultOptions.enableLocalGraph
     return (
       <div class={classNames(displayClass, "graph")}>
-        <div class="graph-outer">
-          <div id="graph-container" data-cfg={JSON.stringify(localGraph)}></div>
-        </div>
+        {renderLocalGraph && (
+          <div class="graph-outer">
+            <div id="graph-container" data-cfg={JSON.stringify(localGraph)}></div>
+          </div>
+        )}
         <div id="global-graph-outer">
           <div id="global-graph-container" data-cfg={JSON.stringify(globalGraph)}></div>
         </div>

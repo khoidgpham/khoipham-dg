@@ -1,5 +1,5 @@
 ---
-draft: false
+draft: true
 title: về mình
 ---
 Xin chào, mình là Khôi. 

@@ -9,17 +9,17 @@ ul.section-ul {
 li.section-li {
   margin-bottom: 1em;
 
-  & > .section {
+  &>.section {
     display: grid;
     grid-template-columns: fit-content(8em) 3fr 1fr;
 
     @media all and ($mobile) {
-      & > .tags {
+      &>.tags {
         display: none;
       }
     }
 
-    & > .desc > h3 > a {
+    &>.desc>h5>a {
       background-color: transparent;
     }
 
@@ -34,7 +34,7 @@ li.section-li {
 .popover .section {
   grid-template-columns: fit-content(8em) 1fr !important;
 
-  & > .tags {
+  &>.tags {
     display: none;
   }
 }

@@ -1,12 +1,10 @@
 ---
-draft: true
+draft: false
 tags:
   - AI
 source: https://commoncog.com/how-to-use-ai-without-becoming-stupid/
 ---
 Nguyên tắc sử dụng các công cụ AI mà không mất đi năng lực tư duy của mình? 
-
-
 
 Điều này mang nghĩa là gì?
 - Không outsource sự đánh giá giá trị chủ quan của mình cho AI - vì AI không thể đưa ra những đánh giá giá trị, AI vẫn chưa phải là một thực thể có thể tạo ra ý nghĩa. 

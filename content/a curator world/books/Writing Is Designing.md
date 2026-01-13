@@ -27,6 +27,6 @@ Tập trung chủ đề thiết kế trải nghiệm qua nội dung, sách đi q
 [[Câu chữ cũng tạo ra trải nghiệm]]
 [[202511101045 mad lib content strategy statement]]
 [[202511111407 sử dụng ngôn ngữ đơn giản có lợi cho tất cả mọi người]]
-[[202511111429 nguyên tắc viết trạng thái lỗi]]
+[[nguyên tắc viết trạng thái lỗi]]
 [[202511111704 tone hierachy]]
 [[202511111713 Facebook Tone Framework]]

@@ -20,7 +20,7 @@ import MobileOnly from "./MobileOnly"
 import RecentNotes from "./RecentNotes"
 import Breadcrumbs from "./Breadcrumbs"
 import Comments from "./Comments"
-import FloatingButtons from "./FloatingButtons.tsx"
+import FloatingButtons from "./FloatingButtons"
 
 export {
   ArticleTitle,

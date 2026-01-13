@@ -38,6 +38,7 @@ export const defaultContentPageLayout: PageLayout = {
       },
       folderClickBehavior: "link",
     })),
+    Component.RecentNotes(),
   ],
   right: [
     Component.Graph({ localGraph: { scale: 1, depth: 2, repelForce: 2, fontSize: 0.3 }, globalGraph: { scale: 1 } }),
@@ -47,7 +48,7 @@ export const defaultContentPageLayout: PageLayout = {
   ],
 }
 
-// components for pages that display a single page (e.g. a single note)
+// components for index page
 export const homepageLayout: PageLayout = {
   beforeBody: [
     Component.ArticleTitle(),
@@ -59,8 +60,7 @@ export const homepageLayout: PageLayout = {
     //     globalGraph: {},
     //   }),
     // ),
-    Component.RecentNotes(),
-
+    Component.Graph({ localGraph: { scale: 1, depth: 2, repelForce: 2, fontSize: 0.3 }, globalGraph: { scale: 1 }, enableLocalGraph: false }),
   ],
   left: [
     Component.PageTitle(),
@@ -78,7 +78,9 @@ export const homepageLayout: PageLayout = {
           return 1
         }
       },
-    })),
+    }),
+    ),
+    Component.DesktopOnly(Component.RecentNotes(),)
   ],
   right: [
     Component.Backlinks(),
@@ -108,6 +110,7 @@ export const defaultListPageLayout: PageLayout = {
     })),
   ],
   right: [
+    Component.Graph({ localGraph: { scale: 1, depth: 2, repelForce: 2, fontSize: 0.3 }, globalGraph: { scale: 1 }, enableLocalGraph: false }),
     Component.Darkmode(),
   ],
 }
