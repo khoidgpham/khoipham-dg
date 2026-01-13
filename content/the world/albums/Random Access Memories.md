@@ -1,4 +1,5 @@
 ---
+draft: true
 album: Random Access Memories
 artist: Daft Punk
 release_date: 2013-05-21

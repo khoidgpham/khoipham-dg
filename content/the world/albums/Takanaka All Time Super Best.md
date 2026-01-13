@@ -1,4 +1,5 @@
 ---
+draft: true
 album: Takanaka All Time Super Best
 artist: Masayoshi Takanaka
 release_date:

@@ -1,4 +1,5 @@
 ---
+draft: true
 album: Diamond Life
 artist: Sade
 release_date: 1984-01-01

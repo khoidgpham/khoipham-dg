@@ -1,4 +1,5 @@
 ---
+draft: true
 album: White Pony (Limited Edition)
 artist: Deftones
 release_date:

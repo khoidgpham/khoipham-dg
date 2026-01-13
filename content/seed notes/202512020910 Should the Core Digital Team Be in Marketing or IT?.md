@@ -1,4 +1,5 @@
 ---
+draft: true
 tags:
   - digital
 source: "[[Managing Chaos]]"

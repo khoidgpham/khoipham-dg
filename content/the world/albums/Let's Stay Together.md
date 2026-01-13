@@ -1,4 +1,5 @@
 ---
+draft: true
 album: Let's Stay Together
 artist: Al Green
 release_date:

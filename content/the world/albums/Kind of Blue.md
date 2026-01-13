@@ -1,4 +1,5 @@
 ---
+draft: true
 album: Kind of Blue
 artist: Miles Davis
 release_date:

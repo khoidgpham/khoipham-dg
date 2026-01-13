@@ -1,4 +1,5 @@
 ---
+draft: true
 album: Mint Jams
 artist: CASIOPEA
 release_date:

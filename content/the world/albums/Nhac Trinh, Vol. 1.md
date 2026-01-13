@@ -1,4 +1,5 @@
 ---
+draft: true
 album: Nhac Trinh, Vol. 1
 artist: Various Artists
 release_date: 2008-03-26

@@ -1,4 +1,5 @@
 ---
+draft: true
 title: ContentIndex
 tags:
   - plugin/emitter

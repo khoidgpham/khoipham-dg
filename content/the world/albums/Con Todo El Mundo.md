@@ -1,4 +1,5 @@
 ---
+draft: true
 album: Con Todo El Mundo
 artist: Khruangbin
 release_date:

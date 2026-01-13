@@ -1,4 +1,5 @@
 ---
+draft: true
 album: The Bends
 artist: Radiohead
 release_date: 1995-04-04

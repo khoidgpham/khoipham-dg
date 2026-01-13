@@ -1,4 +1,5 @@
 ---
+draft: true
 album: Igor (Physical Version)
 artist: Tyler, The Creator
 release_date:

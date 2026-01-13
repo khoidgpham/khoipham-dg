@@ -1,4 +1,5 @@
 ---
+draft: true
 album: In the Groove
 artist: Jiro Inagaki and His Soul Media
 release_date: 1973-07-25

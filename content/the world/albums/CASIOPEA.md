@@ -1,4 +1,5 @@
 ---
+draft: true
 album: CASIOPEA
 artist: Casiopea
 release_date: 1979-05-25

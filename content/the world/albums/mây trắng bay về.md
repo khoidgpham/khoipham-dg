@@ -1,4 +1,5 @@
 ---
+draft: true
 album: mây trắng bay về
 artist: Thanh Lam
 release_date: 2001-04-19

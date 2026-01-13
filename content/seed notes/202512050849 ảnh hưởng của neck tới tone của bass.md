@@ -1,4 +1,5 @@
 ---
+draft: true
 tags:
   - bass
 source: https://keremkoseoglu.wordpress.com/2020/08/09/from-components-to-sound-composing-your-perfect-bass/

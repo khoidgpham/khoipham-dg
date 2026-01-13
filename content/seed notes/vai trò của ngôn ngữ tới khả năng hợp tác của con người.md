@@ -1,3 +1,6 @@
+---
+draft: true
+---
 #language
 
 Sức mạnh của ngôn ngữ chính là một trong những "siêu năng lực" giúp con người hợp tác hiệu quả. Hãy cùng xem ngôn ngữ đã làm điều đó như thế nào nhé.

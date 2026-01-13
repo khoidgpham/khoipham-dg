@@ -1,4 +1,5 @@
 ---
+draft: true
 album: Cowboy Bebop
 artist: Cowboy Bebop
 release_date:

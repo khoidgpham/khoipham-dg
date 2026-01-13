@@ -1,4 +1,5 @@
 ---
+draft: true
 album: Light & Day
 artist: The Polyphonic Spree
 release_date:

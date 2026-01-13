@@ -1,4 +1,5 @@
 ---
+draft: true
 album: Funky Stuff
 artist: Jiro Inagaki and His Soul Media
 release_date: 1975-01-25

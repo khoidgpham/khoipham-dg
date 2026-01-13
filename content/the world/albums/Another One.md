@@ -1,4 +1,5 @@
 ---
+draft: true
 album: Another One
 artist: Mac Demarco
 release_date: 2015-08-07

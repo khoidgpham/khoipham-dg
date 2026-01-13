@@ -1,4 +1,5 @@
 ---
+draft: true
 tags:
   - content-design
 source: "[[The Content Strategy Toolkit]]"

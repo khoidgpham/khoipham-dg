@@ -1,4 +1,5 @@
 ---
+draft: true
 album: The Miseducation of Lauryn Hill
 artist: Lauryn Hill
 release_date: 1998-08-25

@@ -1,4 +1,5 @@
 ---
+draft: true
 title: đồ vật
 ---
 

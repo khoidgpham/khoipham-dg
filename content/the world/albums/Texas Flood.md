@@ -1,4 +1,5 @@
 ---
+draft: true
 album: Texas Flood
 artist: Stevie Ray Vaughan
 release_date: 1983-01-01

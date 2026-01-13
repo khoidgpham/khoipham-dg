@@ -1,4 +1,5 @@
 ---
+draft: true
 tags:
   - content-strategy
 source: "[[The Elements of Content Strategy]]"

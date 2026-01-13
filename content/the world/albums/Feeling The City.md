@@ -1,4 +1,5 @@
 ---
+draft: true
 album: Feeling The City
 artist: Groovél
 release_date: 2025-06-27

@@ -1,4 +1,5 @@
 ---
+draft: true
 title: Static
 tags:
   - plugin/emitter

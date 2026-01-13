@@ -1,4 +1,5 @@
 ---
+draft: true
 album: Love Deluxe
 artist: Sade
 release_date: 1992-10-20

@@ -1,4 +1,5 @@
 ---
+draft: true
 title: NotFoundPage
 tags:
   - plugin/emitter

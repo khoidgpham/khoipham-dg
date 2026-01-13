@@ -1,4 +1,5 @@
 ---
+draft: true
 title: ComponentResources
 tags:
   - plugin/emitter

@@ -1,4 +1,5 @@
 ---
+draft: true
 tags:
   - creative
 source: "[[Content Everywhere]]"

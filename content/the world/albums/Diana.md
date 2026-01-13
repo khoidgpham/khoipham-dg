@@ -1,4 +1,5 @@
 ---
+draft: true
 album: Diana
 artist: Diana Ross
 release_date: 1980-05-22

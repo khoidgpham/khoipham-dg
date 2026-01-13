@@ -1,4 +1,5 @@
 ---
+draft: true
 album: Siamese Dream
 artist: The Smashing Pumpkins
 release_date: 1993-07-01

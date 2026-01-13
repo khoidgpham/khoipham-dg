@@ -1,4 +1,5 @@
 ---
+draft: true
 album: Never Too Much
 artist: Luther Vandross
 release_date:

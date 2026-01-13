@@ -1,4 +1,5 @@
 ---
+draft: true
 title: Recent Notes
 tags: component
 ---

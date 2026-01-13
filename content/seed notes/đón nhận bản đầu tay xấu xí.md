@@ -1,3 +1,6 @@
+---
+draft: true
+---
 #writing 
 
 %% dịch từ [[Everybody Writes]] %%

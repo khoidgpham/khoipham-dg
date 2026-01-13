@@ -1,4 +1,5 @@
 ---
+draft: true
 tags:
   - decision-making
   - strategy

@@ -1,4 +1,5 @@
 ---
+draft: true
 album: Flying Beagle
 artist: Himiko Kikuchi
 release_date:

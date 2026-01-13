@@ -1,4 +1,5 @@
 ---
+draft: true
 tags:
   - mentalhealth
 source: https://psyche.co/guides/how-to-respond-to-annoying-things-with-greater-ease

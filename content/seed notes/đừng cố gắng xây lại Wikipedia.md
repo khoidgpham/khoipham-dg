@@ -1,4 +1,5 @@
 ---
+draft: true
 tags:
   - system-thinking
   - writing

@@ -1,4 +1,5 @@
 ---
+draft: true
 tags:
   - content-model
 source: "[[Web Content Management]]"

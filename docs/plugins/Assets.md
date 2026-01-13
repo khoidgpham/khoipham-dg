@@ -1,4 +1,5 @@
 ---
+draft: true
 title: Assets
 tags:
   - plugin/emitter

@@ -1,4 +1,5 @@
 ---
+draft: true
 album: Seychelles
 artist: Masayoshi Takanaka
 release_date:

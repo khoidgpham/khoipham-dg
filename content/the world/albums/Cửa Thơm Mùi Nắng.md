@@ -1,4 +1,5 @@
 ---
+draft: true
 album: Cửa Thơm Mùi Nắng
 artist: Hoàng Quyên
 release_date: 2013-09-13

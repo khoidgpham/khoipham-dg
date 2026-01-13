@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "Graph View"
 tags:
   - component

@@ -1,4 +1,5 @@
 ---
+draft: true
 author:
   - Bobby Fischer
 tags:

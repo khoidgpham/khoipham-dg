@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "Latex"
 tags:
   - plugin/transformer

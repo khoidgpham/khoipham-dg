@@ -1,4 +1,5 @@
 ---
+draft: true
 album: Thriller
 artist: Michael Jackson
 release_date:

@@ -1,3 +1,6 @@
+---
+draft: true
+---
 ![[hướng dẫn giải Cubik_image_1.png]]
 # Thuật toán dành cho người mới
 [[Phan Ngọc Mai]] bảo đây là thuật toán hoa cúc

@@ -1,4 +1,5 @@
 ---
+draft: true
 album: Freudian
 artist: Daniel Caesar
 release_date: 2017-06-09

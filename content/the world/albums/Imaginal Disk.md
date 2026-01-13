@@ -1,4 +1,5 @@
 ---
+draft: true
 album: Imaginal Disk
 artist: Magdalena Bay
 release_date: 2024-08-23

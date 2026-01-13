@@ -1,4 +1,5 @@
 ---
+draft: true
 album: Deathconsciousness
 artist: Have A Nice Life
 release_date: 2008-01-24

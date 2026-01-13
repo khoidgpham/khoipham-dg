@@ -1,4 +1,5 @@
 ---
+draft: true
 title: AliasRedirects
 tags:
   - plugin/emitter

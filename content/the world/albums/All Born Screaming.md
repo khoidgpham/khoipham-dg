@@ -1,4 +1,5 @@
 ---
+draft: true
 album: All Born Screaming
 artist: St. Vincent
 release_date:

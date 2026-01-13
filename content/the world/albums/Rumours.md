@@ -1,4 +1,5 @@
 ---
+draft: true
 album: Rumours
 artist: Fleetwood Mac
 release_date: 1976-12-01

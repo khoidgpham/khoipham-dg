@@ -1,4 +1,5 @@
 ---
+draft: true
 tags:
   - self-help
 source: https://substack.com/home/post/p-176949267

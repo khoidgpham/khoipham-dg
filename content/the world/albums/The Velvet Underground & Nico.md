@@ -1,4 +1,5 @@
 ---
+draft: true
 album: The Velvet Underground & Nico
 artist: The Velvet Underground & Nico
 release_date:

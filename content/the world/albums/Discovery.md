@@ -1,4 +1,5 @@
 ---
+draft: true
 album: Discovery
 artist: Daft Punk
 release_date: 2000-11-30

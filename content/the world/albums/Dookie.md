@@ -1,4 +1,5 @@
 ---
+draft: true
 album: Dookie
 artist: Green Day
 release_date: 1994-02-01

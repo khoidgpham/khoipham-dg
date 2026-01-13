@@ -1,4 +1,5 @@
 ---
+draft: true
 album: Đường Về
 artist: Quái Vật Tí Hon & Hai Bot
 release_date: 2011-10-25

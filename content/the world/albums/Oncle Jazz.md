@@ -1,4 +1,5 @@
 ---
+draft: true
 album: Oncle Jazz
 artist:
   - "[[Man I Trust]]"

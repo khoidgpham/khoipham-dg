@@ -1,4 +1,5 @@
 ---
+draft: true
 album: Những Thành Phố Chung Dòng Sông - EP
 artist: Thành Đồng
 release_date: 2025-05-03

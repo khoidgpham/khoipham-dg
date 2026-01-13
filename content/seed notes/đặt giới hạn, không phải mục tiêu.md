@@ -1,3 +1,6 @@
+---
+draft: true
+---
 Chúng ta thường nhắc nhở với nhau rằng muốn trở nên thành công việc đầu tiên chúng ta phải đặt cho mình một mục tiêu. Nhưng liêu phương pháp này có đúng với mọi trường hợp hay không? 
 
 Những người sáng tạo làm việc theo cách đặt ra cho mình những giới hạn, không phải mục tiêu cụ thể. 

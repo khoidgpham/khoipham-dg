@@ -1,4 +1,5 @@
 ---
+draft: true
 album: Tako Tsubo
 artist: L’Impératrice
 release_date:

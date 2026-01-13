@@ -1,4 +1,5 @@
 ---
+draft: true
 album: Apricot Princess
 artist: Rex Orange County
 release_date: 2017-04-26

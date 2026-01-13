@@ -1,4 +1,5 @@
 ---
+draft: true
 album: Bossa Carioca
 artist: Lisa Ono
 release_date: 2004-12-14

@@ -1,4 +1,5 @@
 ---
+draft: true
 album: An Evening With Silk Sonic
 artist: Bruno Mars, Anderson .Paak, Silk Sonic
 release_date: 2021-11-12

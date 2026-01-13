@@ -1,4 +1,5 @@
 ---
+draft: true
 album: Chet
 artist: Chet Baker
 release_date: 1949-04-25

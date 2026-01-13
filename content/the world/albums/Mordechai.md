@@ -1,4 +1,5 @@
 ---
+draft: true
 album: Mordechai
 artist: Khruangbin
 release_date: 2020-04-23

@@ -1,4 +1,5 @@
 ---
+draft: true
 album: Mama Said
 artist: Lenny Kravitz
 release_date:

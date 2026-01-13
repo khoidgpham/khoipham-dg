@@ -1,4 +1,5 @@
 ---
+draft: true
 album: Mama's Gun
 artist: Erykah Badu
 release_date:

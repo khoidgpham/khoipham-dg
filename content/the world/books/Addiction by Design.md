@@ -1,4 +1,5 @@
 ---
+draft: true
 author:
   - Natasha Dow Schüll
 tags:

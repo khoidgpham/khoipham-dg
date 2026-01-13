@@ -1,4 +1,5 @@
 ---
+draft: true
 album: Jolly Jive
 artist: Masayoshi Takanaka
 release_date:

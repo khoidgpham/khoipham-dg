@@ -1,4 +1,5 @@
 ---
+draft: true
 album: Blonde
 artist: Frank Ocean
 release_date: 2016-08-20

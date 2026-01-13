@@ -1,4 +1,5 @@
 ---
+draft: true
 album: Around the Fur
 artist: Deftones
 release_date:

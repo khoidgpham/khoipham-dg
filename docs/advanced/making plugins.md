@@ -1,4 +1,5 @@
 ---
+draft: true
 title: Making your own plugins
 ---
 

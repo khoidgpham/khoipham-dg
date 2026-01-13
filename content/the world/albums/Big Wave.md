@@ -1,4 +1,5 @@
 ---
+draft: true
 album: Big Wave
 artist: Tatsuro Yamashita
 release_date: 1984-06-20

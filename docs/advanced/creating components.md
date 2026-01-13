@@ -1,4 +1,5 @@
 ---
+draft: true
 title: Creating your own Quartz components
 ---
 

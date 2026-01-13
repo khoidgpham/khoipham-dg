@@ -1,4 +1,5 @@
 ---
+draft: true
 album: Voodoo
 artist: D'Angelo
 release_date: 2000-10-31

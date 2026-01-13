@@ -1,4 +1,5 @@
 ---
+draft: true
 album: Dummy
 artist: Portishead
 release_date:

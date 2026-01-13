@@ -1,4 +1,5 @@
 ---
+draft: true
 tags:
   - managment
 source: "[[The Content Strategy Toolkit]]"

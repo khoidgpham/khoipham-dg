@@ -1,4 +1,5 @@
 ---
+draft: true
 album: Can't Buy A Thrill
 artist: Steely Dan
 release_date: 1972-10-01

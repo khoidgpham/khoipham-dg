@@ -1,4 +1,5 @@
 ---
+draft: true
 album: The Dark Side Of The Moon
 artist: Pink Floyd
 release_date: 1973-03-02

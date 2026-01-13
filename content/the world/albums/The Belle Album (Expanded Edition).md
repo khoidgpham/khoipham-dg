@@ -1,4 +1,5 @@
 ---
+draft: true
 album: The Belle Album (Expanded Edition)
 artist: Al Green
 release_date:

@@ -1,4 +1,5 @@
 ---
+draft: true
 album: Scenery
 artist: Ryo Fukui
 release_date:

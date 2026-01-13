@@ -1,4 +1,5 @@
 ---
+draft: true
 album: Communication
 artist: Junko Yagami
 release_date:

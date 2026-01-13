@@ -1,3 +1,6 @@
+---
+draft: true
+---
 1. Tập nhiều để tay to hơn
 2. Bass là một loại nhạc cụ thiên về nhịp điệu, vì vậy khi luyện tập bass nên tập trung thêm nhiều các kĩ thuật nhịp hơn (nhịp 4/8/16; biến thể nhịp; note duration)
 3. Sử dụng tai nghe để phát hiện các vấn đề trong việc chơi kĩ hơn. Nhưng đừng đặt nặng vấn đề quá, khi chơi live ít ai nghe ra những vấn đề này lắm

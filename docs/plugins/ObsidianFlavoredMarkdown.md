@@ -1,4 +1,5 @@
 ---
+draft: true
 title: ObsidianFlavoredMarkdown
 tags:
   - plugin/transformer

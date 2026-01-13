@@ -1,4 +1,5 @@
 ---
+draft: true
 album: Gaucho
 artist: Steely Dan
 release_date: 1980-11-21

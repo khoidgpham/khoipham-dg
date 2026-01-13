@@ -1,4 +1,5 @@
 ---
+draft: true
 tags:
   - writing
 source: "[[How to take smart notes]]"

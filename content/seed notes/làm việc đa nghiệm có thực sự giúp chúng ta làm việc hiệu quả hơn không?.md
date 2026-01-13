@@ -1,3 +1,6 @@
+---
+draft: true
+---
 trong thời đại ngày nay khi lượng thông tin xuất hiện hàng ngày diễn ra liên tục từng giây và luôn luôn đòi hỏi sự chú ý của ta, điều này bắt chúng ta phải xử lí nhiều thứ cùng một lúc, và điều này ảnh hưởng tới khả năng tập trung của chúng ta. nhiều người cho rằng kĩ nằng multi tasking đang dần trở thành một kĩ năng không thể nào thiếu được cho những con người sinh ra trên thế giới hiện đại. nhưng câu hỏi đặt ra là liệu điều này có thực sự giúp chúng ta tăng sự hiệu quả trong công việc hay không?
 
 có nhiều nghiên cứu đã được thực hiện với đối tượng là những người cho rằng họ có khả năng xử lí nhiều công việc cùng lúc, họ đã kiểm nghiệm đối chiếu với những con người này với một nhóm kiểm soát, cùng thực hiện một nhóm công việc nhất định, khác biệt ở việc cách họ xử lí công việc như thế nào (xử lí cùng một lúc, làm từng thứ một lúc). kết quả cho thấy năng suất của nhóm multitasking kém đi rõ rệt (Wang and Tchernev 2012; Rosen 2008; Ophir, Nass, and Wagner 2009). 

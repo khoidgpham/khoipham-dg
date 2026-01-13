@@ -1,4 +1,5 @@
 ---
+draft: true
 album: Troupeau Bleu
 artist: Cortex
 release_date:

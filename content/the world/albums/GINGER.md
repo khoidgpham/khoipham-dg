@@ -1,4 +1,5 @@
 ---
+draft: true
 album: GINGER
 artist: BROCKHAMPTON
 release_date: 2019-06-07

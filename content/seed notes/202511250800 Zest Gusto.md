@@ -1,4 +1,5 @@
 ---
+draft: true
 tags:
   - writing
 source: "[[Zen in the Art of Writing]]"

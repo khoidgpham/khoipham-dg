@@ -1,3 +1,6 @@
+---
+draft: true
+---
 Khi có ai đó chỉ ra vấn đề xuất hiện trong trải nghiệm người dùng nằm ở câu chữ, cũng là lúc khi đó UX Writer được tuyển vào để giải quyết vấn đề.
 
 Tuy nhiên, vấn đề đó thường chỉ là triệu chứng cho một nguyên nhân sâu xa hơn, và cách giải quyết cũng không chỉ đơn giản là nằm ở câu chữ.

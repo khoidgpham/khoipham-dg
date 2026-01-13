@@ -1,4 +1,5 @@
 ---
+draft: true
 album: "Diana Ross: All the Great Hits"
 artist: Diana Ross
 release_date: 1981-10-01

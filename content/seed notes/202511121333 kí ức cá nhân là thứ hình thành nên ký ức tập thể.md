@@ -1,4 +1,5 @@
 ---
+draft: true
 tags:
   - culture
 source: "[[The Shallow What Internet Does To Your Brain?]]"

@@ -1,4 +1,5 @@
 ---
+draft: true
 album: THE RAINBOW GOBLINS
 artist: Masayoshi Takanaka
 release_date:

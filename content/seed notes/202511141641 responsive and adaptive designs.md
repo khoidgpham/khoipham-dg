@@ -1,4 +1,5 @@
 ---
+draft: true
 tags:
   - web-design
 source: "[[Content Everywhere]]"

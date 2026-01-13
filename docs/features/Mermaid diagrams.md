@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "Mermaid Diagrams"
 tags:
   - feature/transformer

@@ -1,3 +1,6 @@
+---
+draft: true
+---
 #psychology 
 
 Tâm lý học tích cực là một phong trào mới trong lĩnh vực tâm lý học, tập trung vào **những điểm mạnh của con người** và **cách con người có thể phát triển mạnh mẽ và thành công trong cuộc sống hàng ngày**. Phong trào này ra đời như một sự phản ứng lại sự tập trung chủ yếu vào các vấn đề tiêu cực (như rối loạn tâm lý, bệnh tâm thần, điểm yếu của con người) của ngành tâm lý học.

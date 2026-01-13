@@ -1,4 +1,5 @@
 ---
+draft: true
 album: The Cream Of Clapton
 artist: Eric Clapton
 release_date:

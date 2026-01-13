@@ -1,4 +1,5 @@
 ---
+draft: true
 tags:
   - buddism
 source: Đường Xanh Mấy Trắng

@@ -1,4 +1,5 @@
 ---
+draft: true
 album: Timely!!
 artist: Anri
 release_date:

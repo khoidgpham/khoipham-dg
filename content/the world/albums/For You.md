@@ -1,4 +1,5 @@
 ---
+draft: true
 album: For You
 artist: Tatsuro Yamashita
 release_date:

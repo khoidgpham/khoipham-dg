@@ -1,4 +1,5 @@
 ---
+draft: true
 title: Full-text Search
 tags:
   - component

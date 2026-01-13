@@ -1,3 +1,6 @@
+---
+draft: true
+---
 Nam giới khi đã quen với việc kìm nén cảm xúc của mình, khi được yêu cầu chia sẻ cảm xúc của mình với người thân thường sẽ gặp phải những khó khăn về mặt cảm xúc, được chia sẻ là cảm giác như “bị trường phạt”
 
 Lý do: 

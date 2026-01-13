@@ -1,4 +1,5 @@
 ---
+draft: true
 tags:
   - AI
 source: https://commoncog.com/how-to-use-ai-without-becoming-stupid/

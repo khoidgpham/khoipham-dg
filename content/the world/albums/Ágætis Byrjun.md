@@ -1,4 +1,5 @@
 ---
+draft: true
 album: Ágætis Byrjun
 artist: Sigur Rós
 release_date:

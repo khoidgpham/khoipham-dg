@@ -1,4 +1,5 @@
 ---
+draft: true
 album: Chet Baker Sings
 artist: Chet Baker
 release_date:

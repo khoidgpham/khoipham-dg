@@ -1,4 +1,5 @@
 ---
+draft: true
 album: L.A. Woman (40th Anniversary Mixes)
 artist: The Doors
 release_date:

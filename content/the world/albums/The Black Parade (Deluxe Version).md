@@ -1,4 +1,5 @@
 ---
+draft: true
 album: The Black Parade (Deluxe Version)
 artist: My Chemical Romance
 release_date: 2006-10-31

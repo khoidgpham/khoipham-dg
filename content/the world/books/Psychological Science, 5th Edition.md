@@ -1,4 +1,5 @@
 ---
+draft: true
 tags:
   - psychology
 book cover: https://m.media-amazon.com/images/I/81DGFhFxH8L._SY522_.jpg

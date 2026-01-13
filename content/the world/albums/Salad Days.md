@@ -1,4 +1,5 @@
 ---
+draft: true
 album: Salad Days
 artist: Mac DeMarco
 release_date: 2014-04-01

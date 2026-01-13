@@ -1,4 +1,5 @@
 ---
+draft: true
 album: Romance Latino Vol.3
 artist: Lisa Ono
 release_date:

@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "SyntaxHighlighting"
 tags:
   - plugin/transformer

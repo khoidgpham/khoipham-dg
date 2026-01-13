@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - Suối Nguồn
 author:

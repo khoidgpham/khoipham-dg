@@ -1,4 +1,5 @@
 ---
+draft: true
 album: Songs in the Key of Life
 artist: Stevie Wonder
 release_date: 1976-09-28

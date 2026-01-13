@@ -1,4 +1,5 @@
 ---
+draft: true
 tags:
   - digital-gorvement
 source: "[[Managing Chaos]]"

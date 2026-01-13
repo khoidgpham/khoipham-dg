@@ -1,4 +1,5 @@
 ---
+draft: true
 album: Kid A
 artist: Radiohead
 release_date: 2000-10-03

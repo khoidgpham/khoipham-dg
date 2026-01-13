@@ -1,4 +1,5 @@
 ---
+draft: true
 album: RIDE ON TIME
 artist: Tatsuro Yamashita
 release_date: 1980-09-19

@@ -1,4 +1,5 @@
 ---
+draft: true
 tags:
   - greed
 source: "[[Blame the ‘greedy bastards’, and you protect the greedy systems  Psyche Ideas]]"
