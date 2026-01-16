@@ -1,7 +1,0 @@
----
-draft: true
-tags:
-  - content-model
-source: "[[Web Content Management]]"
----
-Here’s a list of questions to ask with regard to a system’s content modeling features: • What is the built-in or default content model? How closely does this match your requirements? • To what extent can this model be customized? • Does the system allow multiple types? • Does the system allow content type inheritance? Does it allow multiple inheri‐ tance? • Does the system allow for the datatyping of attributes? • What datatypes are available to add attributes to types? • What value, pattern, and custom validation methods are available? • Can you add custom datatypes to the system based on your specific require‐ ments? • Does the system allow multiple values for attributes? • What editorial interfaces are available for each datatype? • Does the system allow an attribute to be a reference to another content object? Can the reference be to multiple objects? Can it be limited to only those objects of a certain type? • What options are available for content embedding and page composition? • Does the system allow for permissions based on types? • Does the system allow for templating based on types? • How close can this system get to the (usually unreachable) ideal of a custom rela‐ tional database?

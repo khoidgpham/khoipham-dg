@@ -1,9 +1,0 @@
----
-draft: true
-tags:
-  - information-architecture
-source: "[[Everyday Information Architecture]]"
----
-There are two main ways to express a site map: • Graphical Site Map: A graphical site map consists of lines, boxes, and other symbols. It is limiting when it comes to information, but is very useful in illustrating the relationships between pages – parent and children pages, for example, as well as groupings of common content types. A graphical site map doesn’t always require the full slate of future pages; instead, it focuses on a high-level look at navigation, verbiage, and sectional hierarchy. • Detailed Site Map: A detailed site map is a spreadsheet, which means calling it a “map” is a misnomer. Instead, it’s really a future content inventory – each page is presented in a way that both represents the content hierarchy (with child pages indented just enough to illustrate its placement within navigation) and the future state of content. Because it’s a spreadsheet, the shackles of space have been thrown aside, allowing us to not only show how a page is organized, but also what content will be on that page, its content type, and even its status during content migration.
-
-There are two ways to think about a site map. One is as a tool to help figure out site navigation as you’re building or maintaining a new site. The other is as a tool for search engines to crawl. If you see a page called “Site Map” on a website, it’s most often this second tool: a way for a search engine crawler to easily reach every page on the site, rather than a high-level planning document.

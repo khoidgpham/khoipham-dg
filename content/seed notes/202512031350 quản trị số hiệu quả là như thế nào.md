@@ -1,7 +1,0 @@
----
-draft: true
-tags:
-  - digital-gorvement
-source: "[[Managing Chaos]]"
----
-I’ve found that, overall, clear organizational governance is the exception and not the rule. Even when governing practices are clear, the dynamics and culture of an organization can mask what is going as it relates to governance. For instance, most people would think that military environ- ments have command-and-control, top-down governance models and governing norms, but what’s less intuitive is that when it comes to product design, so does Apple, Inc. In fact, in some ways, Apple delegates less accountability and decision-making authority than military organizations. In the military, command and control is the norm except in certain specific times (like on the battle field) when soldiers are empowered to make deci- sions without going through the normal command and control hierarchy. So the military wears its governance framework on its sleeve, but Apple (and a lot of other organizations) wraps their governance practices up in a different cultural veneer (see Figure 6.4). If you were to examine Apple’s real approach to governance overall, it might really look like a benevolent dictatorship and, in certain situations, have tighter controls than those in the military

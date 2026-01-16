@@ -1,9 +1,0 @@
----
-draft: true
-tags:
-  - economics
-source: "[[Web Content Management]]"
----
-Giá trị của hàng hóa đôi khi được định nghĩa bởi sự tổng hợp và cấu thành của các vật chất. cũng giống như content, khi một content tổng hợp với nhau sx tạo thành một giá trị mới. 
-
-> The author calculates that the Bugatti—which has a sticker price of $2.5 million—is worth $600 per pound. This is quite a bit more than the $10 per pound of a Hyundai or even the $60 per pound of a BMW. Now imagine that you ran the Bugatti into a wall at 100 mph. Assuming you survived the crash and then gathered up every last piece of the car, it would still weigh the same as the instant before it hit the wall. But it wouldn’t be worth nearly $600 per pound any longer. It’s the same steel, rubber, and glass it was, it’s just not in the same form. Here’s the key: The dollar value of the car evaporated in the seconds it took you to crash it against that wall, but its weight did not. So where did the value go? The car’s dollar value evapora‐ ted in the crash not because the crash destroyed the atoms that made up the Bugatti but because the crash changed the way in which these parts were arranged. As the parts that made the Bugatti were pulled apart and twisted, the information that was embod‐ ied in the Bugatti was largely destroyed. The last sentence is key: the value of the Bugatti wasn’t in the raw materials of the car, but rather in how these materials were arranged and ordered. Value is created by putting smaller pieces together to work as a whole. The selection, combination, and ordering of the parts is more valuable than the parts themselves

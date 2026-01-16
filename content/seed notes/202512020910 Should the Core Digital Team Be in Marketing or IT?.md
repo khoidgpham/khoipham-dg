@@ -1,7 +1,0 @@
----
-draft: true
-tags:
-  - digital
-source: "[[Managing Chaos]]"
----
-This is my most frequently asked question. There are usually two dynam- ics behind the question. The first is the desire to resolve a power struggle between certain organizational factions. The second dynamic is an assumption that there is an absolutely ideal structure and ideal home for all digital teams. That’s not really the case. Good digital team design is always relative to a variety of factors, including how an organization bud- gets for digital, the geography of digital resources, and an array of other factors I’ll discuss in Chapter 6, “Five Digital Governance Design Factors.” It doesn’t matter if the core team is in marketing/communications/PR or a more technically focused team, like IT or IS. Either will work if roles, responsibilities, and funding are clear—and the team is complete. “Com- plete” means that all the resources required to support the development of digital are on the same team and reporting to the same manager. Often, companies will have split teams, meaning that all the design and editorial aspects are being dealt with by the communications or marketing team, and the application design and network and server infrastructure work is being handled by IT.

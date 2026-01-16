@@ -1,7 +1,0 @@
----
-draft: true
-tags:
-  - content-strategy
-source: "[[The Web Project Guide - From Spark to Launch and Beyond]]"
----
-In reality, when we talk about content, we’re actually talking about: • Message/Messaging: What is the overall messaging of your content, and how does each individual piece of content reflect that messaging strategy? • Format: How does the content present its message? Is it text, video, audio, or some kind of external social media channel? • Model and Structure: How is the content built and how does it connect to other content across the site? • Organization and Layout: How is your content organized for findability, and how do the individual elements of a page provide guidance to importance and navigation? • Voice and Tone: Is the content written in a way that helps guide your unique users toward action, and does it match the overall brand and messaging of your organization? • Meta Information: What details are attached to a piece of content to help machines understand its context, such as accessibility markers and categorization?

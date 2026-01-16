@@ -1,7 +1,0 @@
----
-draft: true
-tags:
-  - information-architecture
-source: "[[A Practical Guide to Information Architecture]]"
----
-Donna Spencer, in her book A Practical Guide to Information Architecture, introduces us to several types of information behaviors, helping us understand the many different ways a person might try to access information on our site. Some of these include: • Finding Known Items: You know what you’re looking for, and you have a great idea on where to find it. Example: Finding your most recent car payment from a commonly visited bank site. • Exploring: You have an idea of what you need, but you have no idea where to find it, let alone articulate it. Example: Searching for a new band to listen to on Spotify. • Refining and Narrowing: You have some information in mind and want to narrow down your results to only that information. Example: You want to find a recipe that uses radishes. • Comparing: You are trying to decide between two items and you want to know the similarities and differences between them. Example: Comparing content to help you choose between a Toyota 4Runner and a Ford Explorer. • Discovering Unknown Things: You came for one thing, and got sidetracked on some other line of discovery. Example: You went on Wikipedia to find information on “Macho Man” Randy Savage’s world title history, but ended up reading the history of Slim Jim.
